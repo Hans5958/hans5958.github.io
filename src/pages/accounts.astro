@@ -1,0 +1,38 @@
+---
+import Default from '../layouts/Default.astro'
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import accounts from '../data/accounts.json'
+import { Icon } from 'astro-icon'
+---
+
+<Default
+	title="Accounts"
+	description="Here are some of my accounts that I have. If possible within the service, you can contact me through one of these."
+>
+
+<div class="container mx-auto max-w-[1140px] py-12">
+
+	<div class="">
+		<h1 class="text-5xl font-bold">Accounts</h1>
+		<p class="mt-4">Here are some of my accounts that I have. If possible within the service, you can contact me through one of these.</p>	
+	</div>
+
+	<div class="mt-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-2">
+		{ accounts.map(item => (
+			<a href={ item.url } target="_blank" rel="me" class="border text-black hover:bg-gradient-to-l hover:from-gray-800 hover:to-slate-600 hover:text-white focus:bg-gradient-to-l focus-within:from-gray-800 focus:to-slate-600 focus:text-white focus:ring focus:ring-offset-2 active:bg-black active:text-white rounded shadow flex-grow flex flex-row justify-center items-center p-4 outline-0">
+				{ ( item.icon || item.iconImg ) && <>
+					<div class="mr-4">
+						{ item.icon && <Icon name={item.icon} class="w-12 h-12" style={item?.iconStyle} /> }	
+						{ item.iconImg && <img src={item.iconImg} class="w-12 h-12" /> }	
+					</div>
+				</> }
+				<div class="flex-grow">
+					<p class="text-xl font-semibold">{ item.site }</p>
+					<p class="text-sm">{ item.username }</p>
+				</div>
+			</a>
+		)) }
+	</div>
+</div>
+
+</Default>

@@ -1,0 +1,39 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../config';
+---
+
+<div class="mx-auto max-w-[1140px]">
+	<nav class="flex flex-row justify-between">
+		<a href="/" class="text-xl p-4 flex flex-row font-bold">
+			<img class="rounded-sm w-8 h-8 mr-2" src="https://avatars3.githubusercontent.com/u/11584103">
+			<p class="">
+				{ SITE_TITLE }
+			</p>
+		</a>
+		<ul class="flex flex-row justify-end pr-2">
+			<li class="py-2 px-2 group/pages flex flex-col justify-center relative">
+				<a class="mx-auto" href="#">Pages</a>
+				<ul class="top-12 right-0 mt-2 py-2 bg-white text-black rounded shadow border border-slate-300 hidden group-hover/pages:block min-w-[10rem] absolute">
+					<li class="w-100">
+						<a class="block px-4 py-1 hover:bg-gray-200 w-100" href="/accounts">Accounts</a>
+					</li>
+					<li class="w-100 group/other relative">
+						<a class="block px-4 py-1 group-hover/other:bg-gray-200 w-100" href="#">Other</a>
+						<ul class="top-6 right-2 mt-2 py-2 bg-white text-black rounded shadow border border-slate-300 hidden group-hover/other:block min-w-[10rem] absolute">
+							<li class="w-100">
+								<a class="block px-4 py-1 hover:bg-gray-200 w-100" href="/ccportal">CC Portal</a>
+							</li>
+							<li class="w-100">
+								<a class="block px-4 py-1 hover:bg-gray-200 w-100" href="/osu">osu!</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="py-4 px-2 flex items-center">
+				<a href="#">Projects</a>
+			</li>
+		</ul>
+	</nav>
+</div>

@@ -1,50 +1,143 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import Default from '../layouts/Default.astro'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import Icon from 'astro-icon';
+import tools from '../data/tools.json'
+import highlights from '../data/highlights.json'
+const primarySocials = [
+	{
+		"site": "GitHub",
+		"username": "Hans5958",
+		"url": "https://github.com/Hans5958",
+		"icon": "simple-icons:github"
+	},
+	{
+		"site": "GitLab",
+		"username": "Hans5958",
+		"url": "https://gitlab.com/Hans5958",
+		"icon": "simple-icons:gitlab"
+	},
+	{
+		"site": "Twitter",
+		"username": "Hans5958",
+		"url": "https://twitter.com/Hans5958",
+		"icon": "simple-icons:twitter"
+	},
+	{
+		"site": "YouTube",
+		"username": "Hans5958",
+		"url": "https://www.youtube.com/Hans5958",
+		"icon": "simple-icons:youtube",
+	},
+	{
+		"site": "Reddit",
+		"username": "Hans5958_",
+		"url": "https://reddit.com/u/Hans5958_",
+		"icon": "simple-icons:reddit"
+	},
+]
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/pages/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
-</html>
+<Default
+	title="Index"
+	description="11111"
+>
+
+<section class="bg-gradient-to-b from-gray-800 to-slate-500 text-white">
+	<div class="container mx-auto max-w-[1140px] min-h-[480px] flex flex-col md:flex-row justify py-1 w-full justify-center md:justify-between">
+		<div class="flex flex-col justify-center">
+			<h1 class="text-7xl font-bold mb-3">Hans5958</h1>
+			<p class="text-2xl mb-3">Hi there! Welcome to my website, dear stranger.</p>
+			<p class="opacity-70 italic mb-4">Explorative developer. Mostly web development.</p>
+			<div class="flex gap-2">
+				{ primarySocials.map(item => ( <>
+					<a href={ item.url } target="_blank">
+						<Icon name={ item.icon } class="text-white hover:text-gray-200 active:text-gray-300 w-8 " />
+					</a>
+				</> ) ) }
+			</div>
+		</div>
+		<div class="flex flex-col justify-center mt-4 md:mt-0 md:ml-4">
+			<img class="rounded w-48" src="https://avatars3.githubusercontent.com/u/11584103">
+		</div>
+	</div>
+</section>
+
+<section class="container mx-auto max-w-[1140px] py-12">
+	<h2 class="text-5xl font-bold mb-8">About</h2>
+	<div class="color-links grid lg:grid-cols-2 gap-x-4">
+		<div>
+			<p class="mb-4">Hello, I'm <strong>Hans5958</strong>. I'm a guy who has a passion in tech and computers in general.</p>
+			<hr class="mb-4">
+			<p class="mb-4">As your usual internet citizen, I surf the internet for mostly fun, but often I learn new things, and occasionally make things that people might find it usual, such as articles, videos, and even scripts and programs.</p>
+			<p class="mb-4">I can call myself proficient in front-end stuff. That is with HTML5, JS, and CSS, but I will keep learning new stuff on the road. Currently, I'm learning how to do Python, and probably some deeper front-end stuff, and maybe, in the future, go into the world of Windows software development and back-end stuff.</p>
+			<p class="mb-4">I don't have a certain large project that is in focus. I only do small projects here and there. But, hey, it's "honest work". If you ask about something that I can proud of, go check my <a href="https://hans5958.github.io/mini-htmls">Mini HTMLs</a>.</p>
+		</div>
+		<div>
+			<p class="mb-4">Outside programming, I also like to write things about anything that I interest, from translation, collecting text, editing Wikipedia articles, or just writing normal articles. You can search through my repos for that, or go to <a href="https://hans5958.github.io/blog">my blog</a>.</p>
+			<p class="mb-4">I also like to chat with my friends, try to be the best on my school, and having a great time with my family, if you ask.</p>
+			<hr class="mb-4">
+			<p class="mb-4">You may contact me through email or through <a href="https://hans5958.github.io/accounts">one of my social media accounts</a>.</p>
+			<p class="mb-4">You want other stuff than tech? Go check out <a href="https://youtube.com/Hans5958">my YouTube channel</a>, <a href="https://twitter.com/Hans5958">my Twitter account</a>, and <a href="https://hans5958.github.io/blog">my blog</a>. I also publish some random texts on <a href="https://gist.github.com/Hans5958">my Gists</a>.</p>
+		</div>
+	</div>
+</section>
+
+<section class="bg-gradient-to-br from-slate-600 to-slate-700 text-white mb-4">
+	<div class="container mx-auto max-w-[1140px] flex flex-col justify-center py-12">
+		<h2 class="text-5xl font-bold mb-8">Tools</h2>
+		<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2">
+			{ tools.map(item => (
+				<div class="border bg-white text-black rounded shadow flex-grow flex flex-row justify-center items-center p-2 outline-0">
+					<div class="mr-2">
+						{ item.icon && <Icon name={item.icon} class="w-8 h-8" /> }	
+					</div>
+					<div class="flex-grow">
+						<p class="">{ item.name }</p>
+					</div>
+				</div>
+			)) }
+		</div>
+	</div>
+</section>
+
+<section class="container mx-auto max-w-[1140px] py-12">
+	<h2 class="text-5xl font-bold mb-8">Highlights</h2>
+	<div class="grid sm:grid-cols-3 gap-4">
+		{ highlights.map(item => ( <>
+			{ item.image ? ( <>
+				<div class:list={['border bg-white text-black rounded shadow flex-grow p-4 outline-0 h-96', `bg-[url('${item.image}')` ]} >
+					<h3 class="text-3xl font-bold mb-2">{ item.name }</h3>
+					<p>{ item.description }</p>
+				</div>
+			</>) :
+			( <>
+				<div class="border bg-white text-black rounded shadow flex-grow p-4 outline-0 h-96" >
+					<h3 class="text-3xl font-bold mb-2">{ item.name }</h3>
+					<p>{ item.description }</p>
+				</div>				
+			</> )
+			}
+		</> )) }
+	</div>
+</section>
+
+</Default>
+
+<style lang="scss">
+	@import "tailwindcss/base";
+	@import "tailwindcss/components";
+	@import "tailwindcss/utilities";
+
+	.color-links a {
+		@apply text-blue-600;
+
+		&:hover {
+			@apply text-blue-800
+		}
+
+		&:active {
+			@apply text-blue-900
+		}
+	}
+</style>

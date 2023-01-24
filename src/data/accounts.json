@@ -1,0 +1,182 @@
+[
+	{
+		"site": "GitHub",
+		"username": "Hans5958",
+		"url": "https://github.com/Hans5958",
+		"icon": "simple-icons:github"
+	},
+	{
+		"site": "GitHub",
+		"username": "Auto5958",
+		"url": "https://github.com/Auto5958",
+		"icon": "simple-icons:github"
+	},
+	{
+		"site": "GitLab",
+		"username": "Hans5958",
+		"url": "https://gitlab.com/Hans5958",
+		"icon": "logos:gitlab"
+	},
+	{
+		"site": "GitLab",
+		"username": "Auto5958",
+		"url": "https://gitlab.com/Auto5958",
+		"icon": "logos:gitlab"
+	},
+	{
+		"site": "Twitter",
+		"username": "Hans5958",
+		"url": "https://twitter.com/Hans5958",
+		"icon": "logos:twitter"
+	},
+	{
+		"site": "Twitter",
+		"username": "Tweets5958",
+		"url": "https://twitter.com/Tweets5958",
+		"icon": "logos:twitter"
+	},
+	{
+		"site": "YouTube",
+		"username": "Hans5958",
+		"url": "https://www.youtube.com/Hans5958",
+		"icon": "entypo-social:youtube-with-circle",
+		"iconStyle": "color: red"
+	},
+	{
+		"site": "YouTube",
+		"username": "Channel5958",
+		"url": "https://www.youtube.com/Channel5958",
+		"icon": "entypo-social:youtube-with-circle",
+		"iconStyle": "color: red"
+	},
+	{
+		"site": "Reddit",
+		"username": "Hans5958_",
+		"url": "https://reddit.com/u/Hans5958_",
+		"icon": "logos:reddit-icon"
+	},
+	{
+		"site": "Discord",
+		"username": "Hans5958#0969",
+		"url": "",
+		"icon": "logos:discord-icon"
+	},
+	{
+		"site": "Instagram",
+		"username": "Hans5958",
+		"url": "https://www.instagram.com/hans5958",
+		"iconImg": "/assets/img/icons/instagram.png"
+	},
+	{
+		"site": "Mastodon",
+		"username": "Hans5958@mastodon.social",
+		"url": "https://mastodon.social/@Hans5958",
+		"icon": "logos:mastodon-icon"
+	},
+	{
+		"site": "Twitch",
+		"username": "Hans5958_",
+		"url": "https://twitch.tv/Hans5958_",
+		"icon": "logos:twitch"
+	},
+	{
+		"site": "dev.to",
+		"username": "hans5958",
+		"url": "https://dev.to/hans5958",
+		"icon": "simple-icons:dev-dot-to"
+	},
+	{
+		"site": "Scratch",
+		"username": "Hans5958",
+		"url": "https://scratch.mit.edu/users/Hans5958",
+		"iconImg": "/assets/img/icons/scratch.png"
+	},
+	{
+		"site": "Scratch",
+		"username": "Scratcher5958",
+		"url": "https://scratch.mit.edu/users/Scratcher5958",
+		"iconImg": "/assets/img/icons/scratch.png"
+	},
+	{
+		"site": "Wikipedia",
+		"username": "Hans5958",
+		"url": "https://meta.wikimedia.org/wiki/User:Hans5958",
+		"icon": "simple-icons:wikipedia"
+	},
+	{
+		"site": "Wikipedia",
+		"username": "Bot5958",
+		"url": "https://meta.wikimedia.org/wiki/User:Bot5958",
+		"icon": "simple-icons:wikipedia"
+	},
+	{
+		"site": "Fandom",
+		"username": "Hans5958",
+		"url": "https://community.fandom.org/wiki/User:Hans5958",
+		"icon": "simple-icons:fandom",
+		"iconStyle": "color: #FA005A"
+	},
+	{
+		"site": "Fandom",
+		"username": "Bot5958",
+		"url": "https://community.fandom.org/wiki/User:Bot5958",
+		"icon": "simple-icons:fandom",
+		"iconStyle": "color: #FA005A"
+	},
+	{
+		"site": "Keybase",
+		"username": "hans5958",
+		"url": "https://keybase.io/hans5958",
+		"iconImg": "/assets/img/icons/keybase.png"
+	},
+	{
+		"site": "Steam",
+		"username": "Hans5958",
+		"url": "https://steamcommunity.com/id/Hans5958",
+		"icon": "simple-icons:steam"
+	},
+	{
+		"site": "Epic Games",
+		"username": "Hans5958",
+		"url": "",
+		"icon": "simple-icons:epicgames",
+		"iconStyle": "#313131"
+	},
+	{
+		"site": "Xbox",
+		"username": "Hans5958",
+		"url": "https://account.xbox.com/en-US/Profile?gamerTag=Hans5958",
+		"icon": "simple-icons:xbox",
+		"iconStyle": "color: #107C10"
+	},
+	{
+		"site": "EA",
+		"username": "Hans5958",
+		"url": "",
+		"icon": "simple-icons:ea"
+	},
+	{
+		"site": "Minecraft",
+		"username": "Hans5958",
+		"url": "https://namemc.com/profile/Hans5958.1",
+		"iconImg": "/assets/img/icons/minecraft.png"
+	},
+	{
+		"site": "osu!",
+		"username": "Hans5958",
+		"url": "https://osu.ppy.sh/u/Hans5958",
+		"iconImg": "/assets/img/icons/osu.png"
+	},
+	{
+		"site": "Roblox",
+		"username": "Pixel5958",
+		"url": "https://www.roblox.com/users/3581240125/profile",
+		"icon": "simple-icons:roblox"
+	},
+	{
+		"site": "TypeRacer",
+		"username": "Hans5958",
+		"url": "https://data.typeracer.com/pit/profile?user=hans5958",
+		"icon": ""
+	}
+]

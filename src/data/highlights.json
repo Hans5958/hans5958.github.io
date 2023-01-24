@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Mini HTMLs",
+		"description": "Random assortment of small projects with HTML, CSS, and JS.",
+		"link": "https://hans5958.github.io/mini-htmls/"
+	},
+	{
+		"name": "Domino English Translation",
+		"description": "A project to translate Domino, a Japanese MIDI editor.",
+		"link": "https://hans5958.github.io/mini-htmls/"
+	},
+	{
+		"name": "Scratch Addons",
+		"description": "A browser extension for Scratch website. Mainly as a website maintainer",
+		"link": "https://scratchaddons.com",
+		"image": "https://scratchaddons.com/assets/img/showcase/popup-light.png"
+	},
+	{
+		"name": "The 2022 r/place Atlas",
+		"description": "A project to catalog all the artworks of Reddit's 2022 r/place event. Worked with a team to remaster the website.",
+		"link": "https://place-atlas.stefanocoding.me/"
+	}
+]
