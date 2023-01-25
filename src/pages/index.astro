@@ -1,6 +1,5 @@
 ---
 import Default from '../layouts/Default.astro'
-import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 import Icon from 'astro-icon';
 import tools from '../data/tools.json'
 import highlights from '../data/highlights.json'
@@ -39,12 +38,12 @@ const primarySocials = [
 ---
 
 <Default
-	title="Index"
-	description="11111"
+	title=""
+	description="Explorative developer. Mostly web development. Hi there! Welcome to my website, dear stranger. I'm a guy who has a passion in tech and computers in general."
 >
 
 <section class="bg-gradient-to-b from-gray-800 to-slate-500 text-white">
-	<div class="container mx-auto max-w-[1140px] min-h-[480px] flex flex-col md:flex-row justify py-1 w-full justify-center md:justify-between">
+	<div class="container mx-auto max-w-[1140px] min-h-[480px] flex flex-col md:flex-row justify py-12 w-full justify-center md:justify-between">
 		<div class="flex flex-col justify-center">
 			<h1 class="text-7xl font-bold mb-3">Hans5958</h1>
 			<p class="text-2xl mb-3">Hi there! Welcome to my website, dear stranger.</p>
@@ -52,7 +51,7 @@ const primarySocials = [
 			<div class="flex gap-2">
 				{ primarySocials.map(item => ( <>
 					<a href={ item.url } target="_blank">
-						<Icon name={ item.icon } class="text-white hover:text-gray-200 active:text-gray-300 w-8 " />
+						<Icon name={ item.icon } class="text-white hover:text-gray-200 focus:text-gray-200 active:text-gray-400 w-8 " />
 					</a>
 				</> ) ) }
 			</div>
@@ -88,7 +87,7 @@ const primarySocials = [
 		<h2 class="text-5xl font-bold mb-8">Tools</h2>
 		<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2">
 			{ tools.map(item => (
-				<div class="border bg-white text-black rounded shadow flex-grow flex flex-row justify-center items-center p-2 outline-0">
+				<div class="border bg-white text-black rounded shadow flex-grow flex flex-row justify-center items-center p-2 outline-none">
 					<div class="mr-2">
 						{ item.icon && <Icon name={item.icon} class="w-8 h-8" /> }	
 					</div>
@@ -104,40 +103,18 @@ const primarySocials = [
 <section class="container mx-auto max-w-[1140px] py-12">
 	<h2 class="text-5xl font-bold mb-8">Highlights</h2>
 	<div class="grid sm:grid-cols-3 gap-4">
-		{ highlights.map(item => ( <>
-			{ item.image ? ( <>
-				<div class:list={['border bg-white text-black rounded shadow flex-grow p-4 outline-0 h-96', `bg-[url('${item.image}')` ]} >
-					<h3 class="text-3xl font-bold mb-2">{ item.name }</h3>
+		{ highlights.map(item => <>
+			<a class="block border bg-white text-black rounded shadow flex-grow outline-none min-h-96 hover:shadow-lg focus:shadow-lg focus:ring-2 focus:ring-blue-500 active:shadow-lg active:bg-gray-100 transition" href={ item.link } >
+				{ item.image && <img src={item.image} alt="" class="rounded-t h-36 w-full object-cover object-top"> }
+				<div class="p-4">
+					<h3 class="text-2xl font-bold mb-2">{ item.name }</h3>
 					<p>{ item.description }</p>
 				</div>
-			</>) :
-			( <>
-				<div class="border bg-white text-black rounded shadow flex-grow p-4 outline-0 h-96" >
-					<h3 class="text-3xl font-bold mb-2">{ item.name }</h3>
-					<p>{ item.description }</p>
-				</div>				
-			</> )
-			}
-		</> )) }
+			</a>
+		</> ) }
 	</div>
 </section>
 
+<a class="hidden" rel="me" href="https://mastodon.social/@Hans5958"></a>
+
 </Default>
-
-<style lang="scss">
-	@import "tailwindcss/base";
-	@import "tailwindcss/components";
-	@import "tailwindcss/utilities";
-
-	.color-links a {
-		@apply text-blue-600;
-
-		&:hover {
-			@apply text-blue-800
-		}
-
-		&:active {
-			@apply text-blue-900
-		}
-	}
-</style>

@@ -1,11 +1,13 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
-
-// https://astro.build/config
 import tailwind from "@astrojs/tailwind";
+import compress from "astro-compress";
 
-// https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
-  integrations: [sitemap(), tailwind()]
+  site: 'https://hans5958.github.io',
+  integrations: [sitemap(), tailwind(), 
+    import.meta.env.MODE === "production" && compress({
+      img: false,
+    })
+  ]
 });

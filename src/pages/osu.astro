@@ -1,0 +1,136 @@
+---
+import OsuEntry from "../components/specifics/OsuEntry.astro";
+import Default from "../layouts/Default.astro";
+---
+
+<Default title="osu!" description="Welcome to my osu! site! What you are seeing here is a migrations of my Google Sites regarding my osu! activity, which has been remastered for people to see.">
+	<div class="container mx-auto max-w-[1140px] pt-4 pb-8 color-links">
+		<div class="border p-4 rounded mb-8">
+			<p>What you are seeing here is a migrations of my Google Sites regarding my osu! activity, which has been remastered for people to see.</p>
+		</div>
+
+		<div class="text-center font-bold mb-8">
+			<p class="text-3xl mb-2">Welcome to my osu! site!</p>
+			<p class="">On here, you can download my replays, my skins, etc that was related of osu!</p>	
+		</div>
+
+		<section class="mb-8 grid lg:grid-col-2 auto-rows-min">
+			<ul>
+				<OsuEntry>
+					<p slot="key" class="font-bold">Skins</p>
+					<p slot="value" class="text-right"><a href="https://osu.ppy.sh/community/forums/topics/211396">Redd Glass HD</a>, <a href="https://osu.ppy.sh/community/forums/topics/148244?n=1">Taiko HD</a>, <a href="https://osu.ppy.sh/community/forums/topics/202838">NeOsu5</a>, IOS5, <a href="https://osu.ppy.sh/community/forums/topics/329808">Android 5</a>, <a href="https://osu.ppy.sh/community/forums/topics/335846?n=1">Custom healthbar generator</a> (combined)</p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold">YouTube</p>
+					<p slot="value" class="text-right"><a href="https://www.youtube.com/Hans5958">youtube.com/Hans5958</a></p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold">Google+</p>
+					<p slot="value" class="text-right">[redacted]</p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold">Website</p>
+					<p slot="value" class="text-right"><a href="#">hans5958.esy.es</a></p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold">osu! Profile</p>
+					<p slot="value" class="text-right"><a href="https://osu.ppy.sh/u/Hans5958">osu.ppy.sh/u/Hans5958</a></p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold">Download replays</p>
+					<p slot="value" class="text-right"><a href="#">bit.ly/Hans5958osuReplayDownload</a></p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold">Videos</p>
+					<p slot="value" class="text-right"><a href="https://bit.ly/Hans5958osuGameplayPlaylist">bit.ly/Hans5958osuGameplayPlaylist</a></p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold">My Page Links</p>
+					<p slot="value" class="text-right"><a href="#">Here</a></p>
+				</OsuEntry>		
+			</ul>
+		</section>
+
+		<section class="text-center mb-8">
+			<h3 class="font-bold text-2xl mb-2">Stats</h3>
+			<img src="https://osu-sig.vercel.app/card?user=Hans5958&mode=std&lang=en" alt="" class="mx-auto mb-2">
+			<p>More stats on <a href="https://ameobea.me/osutrack/user/Hans5958">https://ameobea.me/osutrack/user/Hans5958</a>.</p>
+		</section>
+
+		<section class="text-center mb-8">
+			<h3 class="font-bold text-2xl mb-2">Habbits</h3>
+			<ul class="text-left list-disc pl-4 mb-6">
+				<li>On main computer: Full mouse, except spinners where I use both mouse and keyboard.</li>
+				<li>On ASUS laptop: Touch screen!</li>
+				<li>Favorite mods: Hidden, Hard Rock, Double Time, Sudden Death</li>
+				<li>Favorite combination of mods: HDHR, HDHRSD, HDHRDTSD, HDHRDTFLPF (for record breaking)</li>
+				<li>Always doing SD and PF, because I want FC and (sometimes) 100% accuracy</li>
+				<li>Other online activities: <a href="https://www.cs2d.com/">CS2D</a> and <a href="https://scratch.mit.edu/users/Hans5958/">Scratch</a></li>
+			</ul>
+
+			<h3 class="font-bold text-2xl mb-2">Credits</h3>
+			<ul>
+				<OsuEntry>
+					<p slot="key" class="font-bold"><a href="http://plus.google.com/">Google+</a></p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold"><a href="http://sites.google.com/">Google Sites</a></p>
+					<p slot="value" class="text-right"><s>hosting</s> <span class="text-xs">(not anymore)</span></p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold"><a href="http://youtube.com/">YouTube</a></p>
+					<p slot="value" class="text-right">video sharing</p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold">osu!record (<a href="http://osu.ppy.sh/u/Darkimmortal">Darkimmortal</a>)</p>
+					<p slot="value" class="text-right">video generator</p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold"><a href="http://www.hostinger.com/">Hostinger</a></p>
+					<p slot="value" class="text-right"><s>main website hosting</s> <span class="text-xs">(not anymore)</span></p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold"><a href="https://osu.ppy.sh//">osu.ppy.sh</a> (Dean "peppy" Herbert)</p>
+					<p slot="value" class="text-right">game <s>and signature</s></p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold"><a href="https://dropbox.com/">Dropbox</a></p>
+					<p slot="value" class="text-right"><s>download hosting</s></p>
+				</OsuEntry>
+				<li>...and everyone who supported me.</li>
+			</ul>
+		</section>
+
+		<section class="text-center mb-8">
+			<h3 class="font-bold text-lg mb-2">Skin Credits</h3>
+			<ul>
+				<OsuEntry>
+					<p slot="key" class="font-bold"><a href="https://osu.ppy.sh/u/Haskorion">Haskorion</a></p>
+					<p slot="value" class="text-right">Redd Glass HD</p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold"><a href="https://osu.ppy.sh/u/TouchFluffyTail">TouchFluffyTail</a></p>
+					<p slot="value" class="text-right">Taiko HD</p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold"><a href="https://osu.ppy.sh/u/OsuMe65">OsuMe65</a></p>
+					<p slot="value" class="text-right">NeOsu5</p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold">-makoto yuki</p>
+					<p slot="value" class="text-right">IOS5, Android 5</p>
+				</OsuEntry>
+				<OsuEntry>
+					<p slot="key" class="font-bold"><a href="https://osu.ppy.sh/u/agubelu">agubelu</a></p>
+					<p slot="value" class="text-right">Custom healthbar generator</p>
+				</OsuEntry>
+			</ul>
+		</section>
+
+		<section class="">
+			<p class="text-gray-500">I use <s>Google Sites</s> GitHub Pages because I'm not a an osu! supporter.</p>
+		</section>
+
+	</div>
+
+</Default>

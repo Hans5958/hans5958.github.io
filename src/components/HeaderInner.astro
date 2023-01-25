@@ -12,8 +12,8 @@ import { SITE_TITLE } from '../config';
 			</p>
 		</a>
 		<ul class="flex flex-row justify-end pr-2">
-			<li class="py-2 px-2 group/pages flex flex-col justify-center relative">
-				<a class="mx-auto" href="#">Pages</a>
+			<li class="group/pages flex items-center relative">
+				<a class="py-4 px-2 hover:text-gray-300 active:text-gray-400 animate" href="#">Pages</a>
 				<ul class="top-12 right-0 mt-2 py-2 bg-white text-black rounded shadow border border-slate-300 hidden group-hover/pages:block min-w-[10rem] absolute">
 					<li class="w-100">
 						<a class="block px-4 py-1 hover:bg-gray-200 w-100" href="/accounts">Accounts</a>
@@ -31,9 +31,7 @@ import { SITE_TITLE } from '../config';
 					</li>
 				</ul>
 			</li>
-			<li class="py-4 px-2 flex items-center">
-				<a href="#">Projects</a>
-			</li>
+			<HeaderLink href="/blog">Blog</HeaderLink>
 		</ul>
 	</nav>
 </div>
