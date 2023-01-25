@@ -23,6 +23,12 @@ const primarySocials = [
 		"icon": "simple-icons:twitter"
 	},
 	{
+		"site": "Mastodon",
+		"username": "Hans5958@mastodon.social",
+		"url": "https://mastodon.social/@Hans5958",
+		"icon": "simple-icons:mastodon"
+	},
+	{
 		"site": "YouTube",
 		"username": "Hans5958",
 		"url": "https://www.youtube.com/Hans5958",
@@ -50,14 +56,14 @@ const primarySocials = [
 			<p class="opacity-70 italic mb-4">Explorative developer. Mostly web development.</p>
 			<div class="flex gap-2">
 				{ primarySocials.map(item => ( <>
-					<a href={ item.url } target="_blank">
+					<a href={ item.url } target="_blank" aria-label={ item.site } rel="me">
 						<Icon name={ item.icon } class="text-white hover:text-gray-200 focus:text-gray-200 active:text-gray-400 w-8 " />
 					</a>
 				</> ) ) }
 			</div>
 		</div>
 		<div class="flex flex-col justify-center mt-4 md:mt-0 md:ml-4">
-			<img class="rounded w-48" src="https://avatars3.githubusercontent.com/u/11584103">
+			<img class="rounded w-48 h-48" src="https://avatars3.githubusercontent.com/u/11584103" alt="Avatar">
 		</div>
 	</div>
 </section>
@@ -114,7 +120,5 @@ const primarySocials = [
 		</> ) }
 	</div>
 </section>
-
-<a class="hidden" rel="me" href="https://mastodon.social/@Hans5958"></a>
 
 </Default>
