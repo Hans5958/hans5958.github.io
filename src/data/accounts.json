@@ -65,7 +65,7 @@
 		"site": "Instagram",
 		"username": "Hans5958",
 		"url": "https://www.instagram.com/hans5958",
-		"iconImg": "/assets/img/icons/instagram.png"
+		"icon": "simple-icons:instagram"
 	},
 	{
 		"site": "Mastodon",
@@ -89,13 +89,15 @@
 		"site": "Scratch",
 		"username": "Hans5958",
 		"url": "https://scratch.mit.edu/users/Hans5958",
-		"iconImg": "/assets/img/icons/scratch.png"
+		"icon": "simple-icons:scratch",
+		"iconStyle": "color: #FF7B26"
 	},
 	{
 		"site": "Scratch",
 		"username": "Scratcher5958",
 		"url": "https://scratch.mit.edu/users/Scratcher5958",
-		"iconImg": "/assets/img/icons/scratch.png"
+		"icon": "simple-icons:scratch",
+		"iconStyle": "color: #FF7B26"
 	},
 	{
 		"site": "Wikipedia",
@@ -112,14 +114,14 @@
 	{
 		"site": "Fandom",
 		"username": "Hans5958",
-		"url": "https://community.fandom.org/wiki/User:Hans5958",
+		"url": "https://community.fandom.com/wiki/User:Hans5958",
 		"icon": "simple-icons:fandom",
 		"iconStyle": "color: #FA005A"
 	},
 	{
 		"site": "Fandom",
 		"username": "Bot5958",
-		"url": "https://community.fandom.org/wiki/User:Bot5958",
+		"url": "https://community.fandom.com/wiki/User:Bot5958",
 		"icon": "simple-icons:fandom",
 		"iconStyle": "color: #FA005A"
 	},
@@ -127,7 +129,7 @@
 		"site": "Keybase",
 		"username": "hans5958",
 		"url": "https://keybase.io/hans5958",
-		"iconImg": "/assets/img/icons/keybase.png"
+		"iconImg": "/assets/img/icons/keybase.svg"
 	},
 	{
 		"site": "Steam",
@@ -139,8 +141,7 @@
 		"site": "Epic Games",
 		"username": "Hans5958",
 		"url": "",
-		"icon": "simple-icons:epicgames",
-		"iconStyle": "#313131"
+		"icon": "simple-icons:epicgames"
 	},
 	{
 		"site": "Xbox",
@@ -156,6 +157,13 @@
 		"icon": "simple-icons:ea"
 	},
 	{
+		"site": "Battle.net",
+		"username": "Hans5958#3236",
+		"url": "",
+		"icon": "simple-icons:battledotnet",
+		"iconStyle": "color: #148EFF"
+	},
+	{
 		"site": "Minecraft",
 		"username": "Hans5958",
 		"url": "https://namemc.com/profile/Hans5958.1",
@@ -165,7 +173,7 @@
 		"site": "osu!",
 		"username": "Hans5958",
 		"url": "https://osu.ppy.sh/u/Hans5958",
-		"iconImg": "/assets/img/icons/osu.png"
+		"iconImg": "/assets/img/icons/osu.svg"
 	},
 	{
 		"site": "Roblox",
