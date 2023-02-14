@@ -51,13 +51,13 @@ const primarySocials = [
 <section class="bg-gradient-to-b from-gray-800 to-slate-500 text-white">
 	<div class="container mx-auto max-w-[1140px] min-h-[480px] flex flex-col md:flex-row justify py-12 w-full justify-center md:justify-between">
 		<div class="flex flex-col justify-center">
-			<h1 class="text-7xl font-bold mb-3">Hans5958</h1>
-			<p class="text-2xl mb-3">Hi there! Welcome to my website, dear stranger.</p>
+			<h1 class="text-5xl md:text-7xl font-bold mb-3">Hans5958</h1>
+			<p class="text-xl md:text-2xl mb-1">Hi there! Welcome to my website, dear stranger.</p>
 			<p class="opacity-70 italic mb-4">Explorative developer. Mostly web development.</p>
 			<div class="flex gap-2">
 				{ primarySocials.map(item => ( <>
 					<a href={ item.url } target="_blank" aria-label={ item.site } rel="me">
-						<Icon name={ item.icon } class="text-white hover:text-gray-200 focus:text-gray-200 active:text-gray-400 w-8 " />
+						<Icon name={ item.icon } class="text-white hover:text-gray-200 focus:text-gray-200 active:text-gray-300 h-8 w-8 " />
 					</a>
 				</> ) ) }
 			</div>
