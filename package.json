@@ -13,14 +13,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/image": "^0.16.6",
     "@astrojs/sitemap": "^1.2.2",
-    "@astrojs/tailwind": "^3.1.1",
-    "astro": "^2.2.3",
-    "astro-compress": "^1.1.35",
+    "@astrojs/tailwind": "^3.1.2",
+    "astro": "^2.3.3",
+    "astro-compress": "^1.1.42",
     "astro-icon": "^0.8.0",
-    "sass": "^1.62.0",
-    "sharp": "^0.31.3",
-    "tailwindcss": "^3.3.1"
+    "sass": "^1.62.1",
+    "sharp": "^0.32.1",
+    "tailwindcss": "^3.3.2"
   }
 }
