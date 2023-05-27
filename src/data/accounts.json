@@ -62,16 +62,28 @@
 		"icon": "logos:discord-icon"
 	},
 	{
-		"site": "Instagram",
-		"username": "Hans5958",
-		"url": "https://www.instagram.com/hans5958",
-		"icon": "simple-icons:instagram"
-	},
-	{
 		"site": "Mastodon",
 		"username": "Hans5958@mastodon.social",
 		"url": "https://mastodon.social/@Hans5958",
 		"icon": "logos:mastodon-icon"
+	},
+	{
+		"site": "Mastodon",
+		"username": "Toots5958@mastodon.social",
+		"url": "https://mastodon.social/@Toots5958",
+		"icon": "logos:mastodon-icon"
+	},
+	{
+		"site": "Matrix",
+		"username": "hans5958:matrix.org",
+		"url": "https://matrix.to/#/@hans5958:matrix.org",
+		"icon": "simple-icons:matrix"
+	},
+	{
+		"site": "Instagram",
+		"username": "Hans5958",
+		"url": "https://www.instagram.com/hans5958",
+		"icon": "simple-icons:instagram"
 	},
 	{
 		"site": "Twitch",
@@ -186,5 +198,19 @@
 		"username": "Hans5958",
 		"url": "https://data.typeracer.com/pit/profile?user=hans5958",
 		"icon": ""
+	},
+	{
+		"site": "Last.fm",
+		"username": "Hans5958",
+		"url": "https://www.last.fm/user/Hans5958",
+		"icon": "simple-icons:lastfm",
+		"iconStyle": "color: #D51007"
+	},
+	{
+		"site": "Trakt",
+		"username": "Hans5958",
+		"url": "https://trakt.tv/users/hans5958",
+		"icon": "simple-icons:trakt",
+		"iconStyle": "color: #ED1C24"
 	}
 ]
