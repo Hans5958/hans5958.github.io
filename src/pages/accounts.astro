@@ -13,12 +13,13 @@ import { Icon } from 'astro-icon'
 
 	<div class="">
 		<h1 class="text-5xl font-bold">Accounts</h1>
-		<p class="mt-4">Here are some of my accounts that I have. If possible within the service, you can contact me through one of these.</p>	
+		<p class="mt-4">Here are some of my accounts that I have. If possible within the service, you can contact me through one of these.</p>
+		<p class="mt-2">Note that this list is not exhaustive. You may contact me to inquire regarding those that are not listed here.</p>
 	</div>
 
 	<div class="mt-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-2">
 		{ accounts.map(item => (
-			<a href={ item.url } target="_blank" rel="me" class="text-black border border-gray-300 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200 focus:ring focus:ring-blue-500 focus:outline-none active:outline-none active:outline-none rounded flex-grow flex flex-row justify-center items-center p-4" rel="me">
+			<a href={ item.url } target="_blank" rel="me" class="text-black border border-gray-300 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200 focus:ring focus:ring-blue-500 focus:outline-none active:outline-none rounded flex-grow flex flex-row justify-center items-center p-4" rel="me">
 				{ ( item.icon || item.iconImg ) && <>
 					<div class="mr-4">
 						{ item.icon && <Icon name={item.icon} class="w-12 h-12" style={item?.iconStyle} /> }	
