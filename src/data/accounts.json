@@ -57,8 +57,8 @@
 	},
 	{
 		"site": "Discord",
-		"username": "Hans5958#0969",
-		"url": "",
+		"username": "hans5958",
+		"url": "https://discord.com/users/279855717203050496",
 		"icon": "logos:discord-icon"
 	},
 	{
@@ -74,6 +74,12 @@
 		"icon": "logos:mastodon-icon"
 	},
 	{
+		"site": "Lemmy",
+		"username": "Hans5958@lemmy.world",
+		"url": "https://lemmy.world/u/Hans5958",
+		"icon": "simple-icons:lemmy"
+	},
+	{
 		"site": "Matrix",
 		"username": "hans5958:matrix.org",
 		"url": "https://matrix.to/#/@hans5958:matrix.org",
@@ -81,7 +87,7 @@
 	},
 	{
 		"site": "Instagram",
-		"username": "Hans5958",
+		"username": "hans5958",
 		"url": "https://www.instagram.com/hans5958",
 		"icon": "simple-icons:instagram"
 	},
@@ -90,12 +96,6 @@
 		"username": "Hans5958_",
 		"url": "https://twitch.tv/Hans5958_",
 		"icon": "logos:twitch"
-	},
-	{
-		"site": "dev.to",
-		"username": "hans5958",
-		"url": "https://dev.to/hans5958",
-		"icon": "simple-icons:dev-dot-to"
 	},
 	{
 		"site": "Scratch",
@@ -142,6 +142,12 @@
 		"username": "hans5958",
 		"url": "https://keybase.io/hans5958",
 		"iconImg": "/assets/img/icons/keybase.svg"
+	},
+	{
+		"site": "dev.to",
+		"username": "hans5958",
+		"url": "https://dev.to/hans5958",
+		"icon": "simple-icons:dev-dot-to"
 	},
 	{
 		"site": "Steam",
