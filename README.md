@@ -4,9 +4,9 @@
 [![License](https://img.shields.io/github/license/Hans5958/hans5958.github.io?style=flat-square)](LICENSE.md)
 [![Visit the website on hans5958.github.io](https://img.shields.io/badge/visit-hans5958.github.io-black?style=flat-square)](https://hans5958.github.io)
 
-This repository hosts my website, located at https://hans5958.github.io. Basically, it contains all about me that I wanted show the world. 
+This repository hosts my website, located at https://hans5958.github.io. Basically, it contains all about me that I wanted to show the world. 
 
-I wanted to try to use some modern toys of the current state of web development, while keeping it still simple. With Astro, that is a pipe dream, came true. It is technically still ol' website, with a sprinkle of modern things ans a site generator.
+I wanted to try to use some modern toys of the current state of web development, while keeping it still simple. With Astro, that is a pipe dream, came true. It is technically still ol' website, with a sprinkle of modern things and a site generator.
 
 > This is **generation 4** (v4) of the website. If you want to check the previous generation (generation 3 with Jekyll), check out https://github.com/Hans5958/website-jekyll.
 
