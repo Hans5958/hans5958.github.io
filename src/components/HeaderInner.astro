@@ -3,6 +3,7 @@ import HeaderLink from './HeaderLink.astro'
 import { SITE_TITLE } from '../config'
 import { Image } from 'astro:assets'
 import avatar from '../images/avatar.png'
+import Icon from "astro-icon";
 ---
 
 <div class="mx-auto max-w-[1140px]">
@@ -15,13 +16,19 @@ import avatar from '../images/avatar.png'
 		</a>
 		<ul class="flex flex-row justify-end pr-2">
 			<li class="group/pages flex items-center relative">
-				<a class="py-4 px-2 hover:text-gray-200 focus:text-gray-200 active:text-gray-300 animate" href="#">Pages</a>
+				<a class="py-4 px-2 hover:text-gray-200 focus:text-gray-200 active:text-gray-300 animate" href="#">
+					Pages
+					<Icon name="bi:caret-down-fill" class="w-4 h-4 inline align-[-.125rem]" />
+				</a>
 				<ul class="top-12 right-0 mt-2 py-2 bg-white text-black rounded shadow border border-gray-300 hidden group-hover/pages:block min-w-[10rem] absolute">
 					<li class="w-100">
 						<a class="block px-4 py-1 hover:bg-gray-200 focus:bg-gray-200 active:bg-gray-300 w-100" href="/accounts">Accounts</a>
 					</li>
 					<li class="w-100 group/other relative">
-						<a class="block px-4 py-1 group-hover/other:bg-gray-200 w-100" href="#">Other</a>
+						<a class="block px-4 py-1 group-hover/other:bg-gray-200 w-100" href="#">
+							Other
+							<Icon name="bi:caret-down-fill" class="w-4 h-4 inline align-[-.125rem]" />
+						</a>
 						<ul class="top-6 right-2 mt-2 py-2 bg-white text-black rounded shadow border border-gray-300 hidden group-hover/other:block min-w-[10rem] absolute">
 							<li class="w-100">
 								<a class="block px-4 py-1 hover:bg-gray-200 focus:bg-gray-200 active:bg-gray-300 w-100" href="/ccportal">CC Portal</a>
