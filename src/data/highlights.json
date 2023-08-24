@@ -25,14 +25,14 @@
 	},
 	{
 		"name": "Scratch Addons",
-		"description": "A browser extension for Scratch website. Mainly as a website maintainer.",
+		"description": "A browser extension for Scratch website. Mainly as a website maintainer, but occasionally contributes in the main project.",
 		"link": "https://scratchaddons.com",
 		"image": "https://scratchaddons.com/assets/img/showcase/popup-light.png"
 	},
 	{
 		"name": "The 2022 r/place Atlas",
-		"description": "A project to catalog all the artworks of Reddit's 2022 r/place event. Worked with a team to remaster the website.",
-		"link": "https://place-atlas.stefanocoding.me/",
+		"description": "A project to catalog all the artworks of Reddit's 2022 r/place event. Worked with a team to remaster and as a maintainer.",
+		"link": "https://2022.place-atlas.stefanocoding.me/",
 		"image": "/assets/img/highlights/place-atlas.png"
 	},
 	{
@@ -42,12 +42,12 @@
 	},
 	{
 		"name": "Pixel Adblock Filters",
-		"description": "Personal ad block filters (it blocks more than ads). Mainly made for uBlock Origin",
+		"description": "Personal ad block filters (it blocks more than ads). Mainly made for usage with uBlock Origin.",
 		"link": "https://github.com/Hans5958/Pixel-Adblock-Filters"
 	},
 	{
 		"name": "MediaWiki Scripts",
-		"description": "Collection of scripts for editing in MediaWiki sites (also known as wikis), such as Wikipedia, Fandom, etc",
+		"description": "Collection of scripts for editing in MediaWiki sites (also known as wikis), such as Wikipedia, Fandom, etc.",
 		"link": "https://gitlab.com/Hans5958-MWS"
 	}
 ]
