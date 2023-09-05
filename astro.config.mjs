@@ -5,18 +5,16 @@ import compress from "astro-compress";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://hans5958.github.io',
+  site: 'https://hans5958.github.io/',
   integrations: [sitemap(), tailwind(), 
     import.meta.env.MODE === "production" && compress({
       img: false
     })
   ],
-  experimental: {
-    assets: true
-  },
   image: {
     service: {
       entrypoint: 'astro/assets/services/sharp' 
     },
   },
+  compressHTML: false
 });
