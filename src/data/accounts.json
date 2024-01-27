@@ -147,7 +147,7 @@
 		"site": "dev.to",
 		"username": "hans5958",
 		"url": "https://dev.to/hans5958",
-		"icon": "simple-icons:dev-dot-to"
+		"icon": "simple-icons:devdotto"
 	},
 	{
 		"site": "Steam",
@@ -209,7 +209,7 @@
 		"site": "Last.fm",
 		"username": "Hans5958",
 		"url": "https://www.last.fm/user/Hans5958",
-		"icon": "simple-icons:lastfm",
+		"icon": "simple-icons:lastdotfm",
 		"iconStyle": "color: #D51007"
 	},
 	{
