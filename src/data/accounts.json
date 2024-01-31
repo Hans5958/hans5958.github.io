@@ -203,7 +203,13 @@
 		"site": "TypeRacer",
 		"username": "Hans5958",
 		"url": "https://data.typeracer.com/pit/profile?user=hans5958",
-		"icon": ""
+		"iconImg": "/assets/img/icons/typeracer.svg"
+	},
+	{
+		"site": "Speedrun.com",
+		"username": "Hans5958",
+		"url": "https://www.speedrun.com/users/Hans5958",
+		"iconImg": "/assets/img/icons/speedrun-com.svg"
 	},
 	{
 		"site": "Last.fm",
