@@ -49,6 +49,23 @@ const primarySocials = [
 ]
 import { Image } from 'astro:assets'
 import avatar from '../images/avatar.png'
+
+import Parser from 'rss-parser'
+let parser = new Parser({
+	customFields: {
+		item: [
+			'description', 
+			'media:thumbnail',
+			'atom:updated'
+		]
+	}
+})
+
+const getMediaThumbnail = (item): string => {
+	return Object.assign({}, Object.assign({}, item['media:thumbnail'])['$']).url
+}
+
+const feed = await parser.parseURL('https://hans5958.github.io/blog/rss.xml');
 ---
 
 <Default
@@ -126,6 +143,41 @@ import avatar from '../images/avatar.png'
 				</div>
 			</a>
 		</> ) }
+	</div>
+</section>
+
+<section class="container mx-auto max-w-[1140px] py-12">
+	<h2 class="text-5xl font-bold">
+		<a href="/blog/" aria-label="Blog of Hans: ">
+			<Image class="rounded-sm w-12 h-12 inline align-[-0.5rem]" src={ avatar } width={ 96 } height={ 96 } format="webp" alt="Avatar" aria-hidden="true" />
+			<Icon name="bi:journal-text" class="w-12 h-12 inline align-[-0.5rem] -ml-1" aria-hidden="true" />
+		</a>
+		Latest
+	</h2>
+	<p class="mt-4 mb-8 color-links">Latest posts by yours truly. For more posts, check out <a href="/blog/">the blog</a>.</p>
+	<div class="grid sm:grid-cols-2 gap-4">
+		{ feed.items.splice(0, 4).map(item => 
+			<a class="block rounded flex-grow outline-none text-black border border-gray-300 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200 focus:ring focus:ring-blue-500 focus:outline-none active:outline-none" href={ item.link }>
+				{ item['media:thumbnail'] && <Image src={ "https://hans5958.github.io" + getMediaThumbnail(item) } alt="" inferSize={true} class="rounded-t h-36 w-full object-cover object-top" /> }
+				<div class="p-4">
+					<h3 class="text-2xl font-bold mb-2">{ item.title }</h3>
+					<p class="text-gray-500 mb-2">
+						<Icon name="mdi:calendar-blank" class="w-4 h-4 inline align-[-.125rem]" aria-hidden="true" aria-label="Created" />
+						<time datetime={ item.isoDate }>
+							{ new Date(item.isoDate).toLocaleDateString('en-UK', { year: 'numeric', month: 'long', day: 'numeric' }) }
+						</time>
+						{ item['atom:updated'] && <>
+							<span class="font-black">·</span>
+							<Icon name="mdi:calendar-edit" class="w-4 h-4 inline align-[-.125rem]" aria-hidden="true" aria-label="Modified" />
+							<time datetime={ item['atom:updated'] } >
+								{ new Date(item['atom:updated']).toLocaleDateString('en-UK', { year: 'numeric', month: 'long', day: 'numeric' }) }
+							</time>
+						</> }
+					</p>
+					<p>{ item.description }</p>
+				</div>
+			</a>
+		) }
 	</div>
 </section>
 
