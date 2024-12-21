@@ -13,22 +13,22 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.1.4",
-    "@astrojs/tailwind": "^5.1.0",
-    "@astrojs/vue": "^4.1.0",
-    "@iconify-json/bi": "^1.1.23",
-    "@iconify-json/devicon-plain": "^1.1.39",
-    "@iconify-json/entypo-social": "^1.1.8",
-    "@iconify-json/logos": "^1.1.42",
-    "@iconify-json/mdi": "^1.1.66",
-    "@iconify-json/simple-icons": "^1.1.101",
-    "astro": "^4.7.1",
-    "astro-compress": "^2.2.8",
-    "astro-icon": "^1.1.0",
+    "@astrojs/sitemap": "^3.2.1",
+    "@astrojs/tailwind": "^5.1.4",
+    "@astrojs/vue": "^5.0.3",
+    "@iconify-json/bi": "^1.2.2",
+    "@iconify-json/devicon-plain": "^1.2.8",
+    "@iconify-json/entypo-social": "^1.2.2",
+    "@iconify-json/logos": "^1.2.4",
+    "@iconify-json/mdi": "^1.2.2",
+    "@iconify-json/simple-icons": "^1.2.16",
+    "astro": "^5.1.1",
+    "astro-compress": "^2.3.5",
+    "astro-icon": "^1.1.4",
     "rss-parser": "^3.13.0",
-    "sass": "^1.76.0",
-    "sharp": "^0.33.3",
-    "tailwindcss": "^3.4.3",
-    "vue": "^3.4.26"
+    "sass": "^1.83.0",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.17",
+    "vue": "^3.5.13"
   }
 }
