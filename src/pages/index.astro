@@ -73,7 +73,7 @@ const feed = await parser.parseURL('https://hans5958.github.io/blog/rss.xml');
 	description="Explorative developer. Mostly web development. Hi there! Welcome to my website, dear stranger. I'm a guy who has a passion in tech and computers in general."
 >
 
-<section class="bg-gradient-to-b from-gray-800 to-slate-500 text-white">
+<section class="bg-linear-to-b from-gray-800 to-slate-500 text-white">
 	<div class="container mx-auto max-w-[1140px] min-h-[480px] flex flex-col md:flex-row justify py-12 w-full justify-center md:justify-between">
 		<div class="flex flex-col justify-center">
 			<h1 class="text-5xl md:text-7xl font-bold mb-3">Hans5958</h1>
@@ -98,7 +98,7 @@ const feed = await parser.parseURL('https://hans5958.github.io/blog/rss.xml');
 	<div class="color-links grid lg:grid-cols-2 gap-x-4">
 		<div>
 			<p class="mb-4">Hello, I'm <strong>Hans5958</strong>. I'm a guy who has a passion in tech and computers in general.</p>
-			<hr class="mb-4">
+			<hr class="mb-4 border-gray-300">
 			<p class="mb-4">As your usual internet citizen, I surf the internet for mostly fun, but often I learn new things, and occasionally make things that people might find it usual, such as articles, videos, and even scripts and programs.</p>
 			<p class="mb-4">I can call myself proficient in front-end stuff. That is with HTML5, JS, and CSS, but I will keep learning new stuff on the road. Currently, I'm learning how to do Python, and probably some deeper front-end stuff, and maybe, in the future, go into the world of Windows software development and back-end stuff.</p>
 			<p class="mb-4">I don't have a certain large project that is in focus. I only do small projects here and there. But, hey, it's "honest work". If you ask about something that I can proud of, go check my <a href="https://hans5958.github.io/mini-htmls">Mini HTMLs</a>.</p>
@@ -106,19 +106,19 @@ const feed = await parser.parseURL('https://hans5958.github.io/blog/rss.xml');
 		<div>
 			<p class="mb-4">Outside programming, I also like to write things about anything that I interest, from translation, collecting text, editing Wikipedia articles, or just writing normal articles. You can search through my repos for that, or go to <a href="https://hans5958.github.io/blog">my blog</a>.</p>
 			<p class="mb-4">I also like to chat with my friends, try to be the best on my school, and having a great time with my family, if you ask.</p>
-			<hr class="mb-4">
+			<hr class="mb-4 border-gray-300">
 			<p class="mb-4">You may contact me through email or through <a href="https://hans5958.github.io/accounts">one of my social media accounts</a>.</p>
 			<p class="mb-4">You want other stuff than tech? Go check out <a href="https://youtube.com/Hans5958">my YouTube channel</a>, <a href="https://twitter.com/Hans5958">my Twitter account</a>, and <a href="https://hans5958.github.io/blog">my blog</a>. I also publish some random texts on <a href="https://gist.github.com/Hans5958">my Gists</a>.</p>
 		</div>
 	</div>
 </section>
 
-<section class="bg-gradient-to-br from-slate-600 to-slate-700 text-white">
+<section class="bg-linear-to-br from-slate-600 to-slate-700 text-white">
 	<div class="container mx-auto max-w-[1140px] py-12">
 		<h2 class="text-5xl font-bold mb-8">Highlights</h2>
 		<div class="grid sm:grid-cols-3 gap-4">
 			{ highlights.map(item => <>
-				<a class="block rounded shadow flex-grow outline-none text-black bg-white hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200 focus:ring focus:ring-blue-500 focus:outline-none active:outline-none" href={ item.link } >
+				<a class="block rounded shadow grow outline-none text-black bg-white hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200 focus:ring focus:ring-blue-500 focus:outline-none active:outline-none" href={ item.link } >
 					{ item.image && <img src={item.image} alt="" class="rounded-t h-36 w-full object-cover object-top"> }
 					<div class="p-4">
 						<h3 class="text-2xl font-bold mb-2">{ item.name }</h3>
@@ -141,7 +141,7 @@ const feed = await parser.parseURL('https://hans5958.github.io/blog/rss.xml');
 	<p class="mt-4 mb-8 color-links">Latest posts by yours truly. For more posts, check out <a href="/blog/">the blog</a>.</p>
 	<div class="grid sm:grid-cols-2 gap-4">
 		{ feed.items.splice(0, 4).map(item => 
-			<a class="block rounded flex-grow outline-none text-black border border-gray-300 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200 focus:ring focus:ring-blue-500 focus:outline-none active:outline-none" href={ item.link }>
+			<a class="block rounded grow outline-none text-black border border-gray-300 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200 focus:ring focus:ring-blue-500 focus:outline-none active:outline-none" href={ item.link }>
 				{ item['media:thumbnail'] && <img src={ "https://hans5958.github.io" + getMediaThumbnail(item) } class="rounded-t h-36 w-full object-cover object-top" aria-hidden="true" /> }
 				<div class="p-4">
 					<h3 class="text-2xl font-bold mb-2">{ item.title }</h3>
@@ -165,18 +165,18 @@ const feed = await parser.parseURL('https://hans5958.github.io/blog/rss.xml');
 	</div>
 </section>
 
-<section class="bg-gradient-to-b from-slate-600 to-slate-800 text-white">
+<section class="bg-linear-to-b from-slate-600 to-slate-800 text-white">
 	<div class="container mx-auto max-w-[1140px] flex flex-col justify-center py-12">
 		<h2 class="text-5xl font-bold">Tools</h2>
 		{ tools.map(section => (
 			<h2 class="text-3xl font-semibold mb-4 mt-8">{ section.name }</h2>
 			<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2">
 				{ section.tools.map(item => (
-					<div class="border bg-white text-black rounded shadow flex-grow flex flex-row justify-center items-center p-2 outline-none">
+					<div class="border bg-white text-black rounded shadow grow flex flex-row justify-center items-center p-2 outline-none">
 						<div class="mr-2">
 							{ item.icon && <Icon name={item.icon} class="w-8 h-8" /> }	
 						</div>
-						<div class="flex-grow">
+						<div class="grow">
 							<p class="">{ item.name }</p>
 						</div>
 					</div>
