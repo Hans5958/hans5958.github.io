@@ -6,7 +6,7 @@ export const SITE_TITLE = 'Hans5958';
 export const SITE_DESCRIPTION = 'The website of Hans5958.'
 export const SITE_AUTHOR = 'Hans5958'
 export const SITE_REPOSITORY = 'https://github.com/Hans5958/hans5958.github.io'
-export const SITE_TWITTER = 'Hans5958'
+export const SITE_TWITTER = '@Hans5958'
 export const SITE_MASTODON = '@Hans5958@mastodon.social'
 
 export const COPYRIGHT_YEAR = today.getFullYear()
