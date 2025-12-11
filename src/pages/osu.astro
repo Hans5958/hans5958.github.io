@@ -1,13 +1,13 @@
 ---
 import OsuEntry from "@/components/specifics/OsuEntry.astro";
 import Default from "@/layouts/Default.astro";
-import Default from "../layouts/Default.astro";
+import A from "@/components/Anchor.astro"
 ---
 
 <Default title="osu!" description="Welcome to my osu! site! What you are seeing here is a migration of my Google Site regarding my osu! activity, which has been remastered for presentation.">
-	<div class="container mx-auto max-w-[1140px] pt-4 pb-8 color-links">
+	<div class="container mx-auto max-w-[1140px] pt-4 pb-8">
 		<div class="border p-4 rounded mb-8">
-			<p>What you are seeing here is a migration of my Google Site regarding my osu! activity, which has been remastered for presentation. <a href="/blog/osu-site-corrections-and-reflections">Check out the blog post in which I put other corrections and reflections.</a></p>
+			<p>What you are seeing here is a migration of my Google Site regarding my osu! activity, which has been remastered for presentation. <A href="/blog/osu-site-corrections-and-reflections">Check out the blog post in which I put other corrections and reflections.</A></p>
 		</div>
 
 		<div class="text-center font-bold mb-8">
@@ -19,11 +19,11 @@ import Default from "../layouts/Default.astro";
 			<ul>
 				<OsuEntry>
 					<p slot="key" class="font-bold">Skins</p>
-					<p slot="value" class="text-right"><a href="https://osu.ppy.sh/community/forums/topics/211396">Redd Glass HD</a>, <a href="https://osu.ppy.sh/community/forums/topics/148244?n=1">Taiko HD</a>, <a href="https://osu.ppy.sh/community/forums/topics/202838">NeOsu5</a>, IOS5, <a href="https://osu.ppy.sh/community/forums/topics/329808">Android 5</a>, <a href="https://osu.ppy.sh/community/forums/topics/335846?n=1">Custom healthbar generator</a> (combined)</p>
+					<p slot="value" class="text-right"><A href="https://osu.ppy.sh/community/forums/topics/211396">Redd Glass HD</A>, <A href="https://osu.ppy.sh/community/forums/topics/148244?n=1">Taiko HD</A>, <A href="https://osu.ppy.sh/community/forums/topics/202838">NeOsu5</A>, IOS5, <A href="https://osu.ppy.sh/community/forums/topics/329808">Android 5</A>, <A href="https://osu.ppy.sh/community/forums/topics/335846?n=1">Custom healthbar generator</A> (combined)</p>
 				</OsuEntry>
 				<OsuEntry>
 					<p slot="key" class="font-bold">YouTube</p>
-					<p slot="value" class="text-right"><a href="https://www.youtube.com/Hans5958">youtube.com/Hans5958</a></p>
+					<p slot="value" class="text-right"><A href="https://www.youtube.com/Hans5958">youtube.com/Hans5958</A></p>
 				</OsuEntry>
 				<OsuEntry>
 					<p slot="key" class="font-bold">Google+</p>
@@ -31,23 +31,23 @@ import Default from "../layouts/Default.astro";
 				</OsuEntry>
 				<OsuEntry>
 					<p slot="key" class="font-bold">Website</p>
-					<p slot="value" class="text-right"><a href="#">hans5958.esy.es</a></p>
+					<p slot="value" class="text-right"><A href="#">hans5958.esy.es</A></p>
 				</OsuEntry>
 				<OsuEntry>
 					<p slot="key" class="font-bold">osu! Profile</p>
-					<p slot="value" class="text-right"><a href="https://osu.ppy.sh/u/Hans5958">osu.ppy.sh/u/Hans5958</a></p>
+					<p slot="value" class="text-right"><A href="https://osu.ppy.sh/u/Hans5958">osu.ppy.sh/u/Hans5958</A></p>
 				</OsuEntry>
 				<OsuEntry>
 					<p slot="key" class="font-bold">Download replays</p>
-					<p slot="value" class="text-right"><a href="#">bit.ly/Hans5958osuReplayDownload</a></p>
+					<p slot="value" class="text-right"><A href="#">bit.ly/Hans5958osuReplayDownload</A></p>
 				</OsuEntry>
 				<OsuEntry>
 					<p slot="key" class="font-bold">Videos</p>
-					<p slot="value" class="text-right"><a href="https://bit.ly/Hans5958osuGameplayPlaylist">bit.ly/Hans5958osuGameplayPlaylist</a></p>
+					<p slot="value" class="text-right"><A href="https://bit.ly/Hans5958osuGameplayPlaylist">bit.ly/Hans5958osuGameplayPlaylist</A></p>
 				</OsuEntry>
 				<OsuEntry>
 					<p slot="key" class="font-bold">My Page Links</p>
-					<p slot="value" class="text-right"><a href="#">Here</a></p>
+					<p slot="value" class="text-right"><A href="#">Here</A></p>
 				</OsuEntry>		
 			</ul>
 		</section>
@@ -55,7 +55,7 @@ import Default from "../layouts/Default.astro";
 		<section class="text-center mb-8">
 			<h3 class="font-bold text-2xl mb-2">Stats</h3>
 			<img src="https://osu-sig.vercel.app/card?user=Hans5958&mode=std&lang=en" alt="" class="mx-auto mb-2">
-			<p>More stats on <a href="https://ameobea.me/osutrack/user/Hans5958">https://ameobea.me/osutrack/user/Hans5958</a>.</p>
+			<p>More stats on <A href="https://ameobea.me/osutrack/user/Hans5958">https://ameobea.me/osutrack/user/Hans5958</A>.</p>
 		</section>
 
 		<section class="text-center mb-8">
@@ -66,36 +66,36 @@ import Default from "../layouts/Default.astro";
 				<li>Favorite mods: Hidden, Hard Rock, Double Time, Sudden Death</li>
 				<li>Favorite combination of mods: HDHR, HDHRSD, HDHRDTSD, HDHRDTFLPF (for record breaking)</li>
 				<li>Always doing SD and PF, because I want FC and (sometimes) 100% accuracy</li>
-				<li>Other online activities: <a href="https://www.cs2d.com/">CS2D</a> and <a href="https://scratch.mit.edu/users/Hans5958/">Scratch</a></li>
+				<li>Other online activities: <A href="https://www.cs2d.com/">CS2D</A> and <A href="https://scratch.mit.edu/users/Hans5958/">Scratch</A></li>
 			</ul>
 
 			<h3 class="font-bold text-2xl mb-2">Credits</h3>
 			<ul>
 				<OsuEntry>
-					<p slot="key" class="font-bold"><a href="http://plus.google.com/">Google+</a></p>
+					<p slot="key" class="font-bold"><A href="http://plus.google.com/">Google+</A></p>
 				</OsuEntry>
 				<OsuEntry>
-					<p slot="key" class="font-bold"><a href="http://sites.google.com/">Google Sites</a></p>
+					<p slot="key" class="font-bold"><A href="http://sites.google.com/">Google Sites</A></p>
 					<p slot="value" class="text-right"><s>hosting</s> <span class="text-xs">(not anymore)</span></p>
 				</OsuEntry>
 				<OsuEntry>
-					<p slot="key" class="font-bold"><a href="http://youtube.com/">YouTube</a></p>
+					<p slot="key" class="font-bold"><A href="http://youtube.com/">YouTube</A></p>
 					<p slot="value" class="text-right">video sharing</p>
 				</OsuEntry>
 				<OsuEntry>
-					<p slot="key" class="font-bold">osu!record (<a href="http://osu.ppy.sh/u/Darkimmortal">Darkimmortal</a>)</p>
+					<p slot="key" class="font-bold">osu!record (<A href="http://osu.ppy.sh/u/Darkimmortal">Darkimmortal</A>)</p>
 					<p slot="value" class="text-right">video generator</p>
 				</OsuEntry>
 				<OsuEntry>
-					<p slot="key" class="font-bold"><a href="http://www.hostinger.com/">Hostinger</a></p>
+					<p slot="key" class="font-bold"><A href="http://www.hostinger.com/">Hostinger</A></p>
 					<p slot="value" class="text-right"><s>main website hosting</s> <span class="text-xs">(not anymore)</span></p>
 				</OsuEntry>
 				<OsuEntry>
-					<p slot="key" class="font-bold"><a href="https://osu.ppy.sh//">osu.ppy.sh</a> (Dean "peppy" Herbert)</p>
+					<p slot="key" class="font-bold"><A href="https://osu.ppy.sh//">osu.ppy.sh</A> (Dean "peppy" Herbert)</p>
 					<p slot="value" class="text-right">game <s>and signature</s></p>
 				</OsuEntry>
 				<OsuEntry>
-					<p slot="key" class="font-bold"><a href="https://dropbox.com/">Dropbox</a></p>
+					<p slot="key" class="font-bold"><A href="https://dropbox.com/">Dropbox</A></p>
 					<p slot="value" class="text-right"><s>download hosting</s></p>
 				</OsuEntry>
 				<li>...and everyone who supported me.</li>
@@ -106,15 +106,15 @@ import Default from "../layouts/Default.astro";
 			<h3 class="font-bold text-lg mb-2">Skin Credits</h3>
 			<ul>
 				<OsuEntry>
-					<p slot="key" class="font-bold"><a href="https://osu.ppy.sh/u/Haskorion">Haskorion</a></p>
+					<p slot="key" class="font-bold"><A href="https://osu.ppy.sh/u/Haskorion">Haskorion</A></p>
 					<p slot="value" class="text-right">Redd Glass HD</p>
 				</OsuEntry>
 				<OsuEntry>
-					<p slot="key" class="font-bold"><a href="https://osu.ppy.sh/u/TouchFluffyTail">TouchFluffyTail</a></p>
+					<p slot="key" class="font-bold"><A href="https://osu.ppy.sh/u/TouchFluffyTail">TouchFluffyTail</A></p>
 					<p slot="value" class="text-right">Taiko HD</p>
 				</OsuEntry>
 				<OsuEntry>
-					<p slot="key" class="font-bold"><a href="https://osu.ppy.sh/u/OsuMe65">OsuMe65</a></p>
+					<p slot="key" class="font-bold"><A href="https://osu.ppy.sh/u/OsuMe65">OsuMe65</A></p>
 					<p slot="value" class="text-right">NeOsu5</p>
 				</OsuEntry>
 				<OsuEntry>
@@ -122,7 +122,7 @@ import Default from "../layouts/Default.astro";
 					<p slot="value" class="text-right">IOS5, Android 5</p>
 				</OsuEntry>
 				<OsuEntry>
-					<p slot="key" class="font-bold"><a href="https://osu.ppy.sh/u/agubelu">agubelu</a></p>
+					<p slot="key" class="font-bold"><A href="https://osu.ppy.sh/u/agubelu">agubelu</A></p>
 					<p slot="value" class="text-right">Custom healthbar generator</p>
 				</OsuEntry>
 			</ul>

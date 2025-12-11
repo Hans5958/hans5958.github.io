@@ -3,16 +3,3 @@
 @utility container {
 	padding-inline: 1rem;
 }
-
-.color-links a {
-	@apply text-blue-600;
-
-	&:hover,
-	&:focus {
-		@apply text-blue-600 underline;
-	}
-
-	&:active {
-		@apply text-blue-900
-	}
-}
