@@ -1,27 +1,33 @@
-[
+import miniHtmls from '@/images/highlights/mini-htmls.png'
+import hyperFlexibleTimer from '@/images/highlights/hyper-flexible-timer.png'
+import userscripts from '@/images/highlights/userscripts.png'
+import dominoEnglishTranslation from '@/images/highlights/domino-english-translation.png'
+import placeAtlas from '@/images/highlights/place-atlas.png'
+
+const highlights = [
 	{
 		"name": "Mini HTMLs",
 		"description": "Random assortment of small projects with HTML, CSS, and JS.",
 		"link": "https://hans5958.github.io/mini-htmls/",
-		"image": "/assets/img/highlights/mini-htmls.png"
+		"image": miniHtmls
 	},
 	{
 		"name": "Hyper Flexible Timer",
 		"description": "A timer/stopwatch hybrid that focuses on flexibility and simplicity. Built with Vue 3 and Astro.",
 		"link": "https://hans5958.github.io/hyper-flexible-timer/",
-		"image": "/assets/img/highlights/hyper-flexible-timer.png"
+		"image": hyperFlexibleTimer
 	},
 	{
 		"name": "Userscripts",
 		"description": "A collection of userscripts and userstyles, free to use.",
 		"link": "https://hans5958.github.io/userscripts/",
-		"image": "/assets/img/highlights/userscripts.png"
+		"image": userscripts
 	},
 	{
 		"name": "Domino English Translation",
 		"description": "A project to translate Domino, a Japanese MIDI editor.",
 		"link": "https://github.com/Hans5958/Domino-English-Translation",
-		"image": "/assets/img/highlights/domino-english-translation.png"
+		"image": dominoEnglishTranslation
 	},
 	{
 		"name": "Scratch Addons",
@@ -33,7 +39,7 @@
 		"name": "The 2022 r/place Atlas",
 		"description": "A project to catalog all the artworks of Reddit's 2022 r/place event. Worked with a team to remaster and as a maintainer.",
 		"link": "https://2022.place-atlas.stefanocoding.me/",
-		"image": "/assets/img/highlights/place-atlas.png"
+		"image": placeAtlas
 	},
 	{
 		"name": "Black MIDI Meta",
@@ -51,3 +57,5 @@
 		"link": "https://gitlab.com/Hans5958-MWS"
 	}
 ]
+
+export default highlights
