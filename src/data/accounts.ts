@@ -5,6 +5,7 @@ export type AccountData = {
 	icon?: string
 	iconStyle?: string
 	iconImg?: string
+	notes: string
 }
 
 export type AccountSectionData = {
@@ -213,28 +214,44 @@ export const accounts: AccountData = [
 				"site": "Wikipedia",
 				"username": "Hans5958",
 				"url": "https://meta.wikimedia.org/wiki/User:Hans5958",
-				"icon": "simple-icons:wikipedia"
+				"icon": "simple-icons:wikipedia",
+				"notes": "Includes other Wikimedia projects such as Wikipedia, Wikidata, and Wikimedia Commons. Common edited wikis are English Wikipedia, Indonesian Wikipedia, and Wikidata."
 			},
 			{
 				"site": "Wikipedia",
 				"username": "Bot5958",
 				"url": "https://meta.wikimedia.org/wiki/User:Bot5958",
-				"icon": "simple-icons:wikipedia"
+				"icon": "simple-icons:wikipedia",
+				"notes": "For sanctioned, automated edits. See profile to see covered wikis."
 			},
 			{
 				"site": "Fandom",
 				"username": "Hans5958",
 				"url": "https://community.fandom.com/wiki/User:Hans5958",
 				"icon": "simple-icons:fandom",
-				"iconStyle": "color: #FA005A"
+				"iconStyle": "color: #FA005A",
+				"notes": "Covering all Fandom wikis."
 			},
 			{
 				"site": "Fandom",
 				"username": "Bot5958",
 				"url": "https://community.fandom.com/wiki/User:Bot5958",
 				"icon": "simple-icons:fandom",
-				"iconStyle": "color: #FA005A"
-			}
+				"iconStyle": "color: #FA005A",
+				"notes": "For sanctioned, automated edits."
+			},
+			{
+				"site": "ArchiveTeam",
+				"username": "Hans5958",
+				"url": "https://wiki.archiveteam.org/index.php/User:Hans5958",
+				"notes": "Links to wiki user page. Same name used on the tracker and leaderboards."
+			},
+			{
+				"site": "VocaDB",
+				"username": "Hans5958",
+				"url": "https://vocadb.net/Profile/Hans5958",
+				"notes": "Includes other sites on the network (VocaDB, UtaiteDB, TouhouDB)"
+			},
 		]
 	},
 	{
