@@ -1,0 +1,23 @@
+---
+import type { AccountSectionData } from "@/data/accounts.ts"
+import Accounts from "./Accounts.astro"
+import Account from "./Account.astro"
+
+let props = Astro.props as {data: AccountSectionData}
+let section = props.data
+console.log(section.sectionTitle)
+---
+
+<section>
+	<h2 class="text-2xl font-semibold mt-8 mb-4">{section.sectionTitle}</h2>
+	{section.sections && <Accounts data={section.sections} />}
+	{
+		section.accounts && (
+			<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-2">
+				{section.accounts.map((account, i) => (
+					<Account data={account} />
+				))}
+			</div>
+		)
+	}
+</section>

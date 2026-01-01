@@ -1,0 +1,10 @@
+---
+import type { AccountSectionData } from "@/data/accounts.ts"
+import AccountsSection from "./AccountsSection.astro"
+
+let props = Astro.props as { data: AccountSectionData[] }
+---
+
+{props.data.map((account, i) => (
+	<AccountsSection data={account} key={i} />
+))}
