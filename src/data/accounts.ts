@@ -37,14 +37,14 @@ export const accounts: AccountData = [
 				"site": "YouTube",
 				"username": "Hans5958",
 				"url": "https://www.youtube.com/Hans5958",
-				"icon": "entypo-social:youtube-with-circle",
+				"icon": "simple-icons:youtube",
 				"iconStyle": "color: red"
 			},
 			{
 				"site": "YouTube",
 				"username": "Channel5958",
 				"url": "https://www.youtube.com/Channel5958",
-				"icon": "entypo-social:youtube-with-circle",
+				"icon": "simple-icons:youtube",
 				"iconStyle": "color: red"
 			},
 			{
@@ -57,7 +57,8 @@ export const accounts: AccountData = [
 				"site": "Discord",
 				"username": "hans5958",
 				"url": "https://discord.com/users/279855717203050496",
-				"icon": "logos:discord-icon"
+				"icon": "logos:discord-icon",
+				"notes": "Not recommended for quick inquiries because you have to add me as a friend. I will accept it, but don't expect for it to be quick."
 			},
 			{
 				"site": "Mastodon",
@@ -75,7 +76,8 @@ export const accounts: AccountData = [
 				"site": "Lemmy",
 				"username": "Hans5958@lemmy.world",
 				"url": "https://lemmy.world/u/Hans5958",
-				"icon": "simple-icons:lemmy"
+				"icon": "simple-icons:lemmy",
+				"notes": "Rarely used."
 			},
 			{
 				"site": "Matrix",
@@ -90,11 +92,25 @@ export const accounts: AccountData = [
 				"icon": "simple-icons:instagram"
 			},
 			{
+				"site": "Bluesky",
+				"username": "hans5958.bsky.social",
+				"url": "https://bsky.app/profile/hans5958.bsky.social",
+				"icon": "simple-icons:bluesky",
+				"iconStyle": "color: #006aff",
+				"notes": "Rarely used in favor of Mastodon. Mastodon account is bridged on Hans5958.mastodon.social.ap.brid.gy."
+			},
+			{
+				"site": "Telegram",
+				"username": "Hans5958",
+				"url": "https://t.me/Hans5958",
+				"icon": "logos:telegram"
+			},
+			{
 				"site": "Twitch",
 				"username": "Hans5958_",
 				"url": "https://twitch.tv/Hans5958_",
 				"icon": "logos:twitch"
-			}
+			},
 		]
 	},
 	{
@@ -116,13 +132,13 @@ export const accounts: AccountData = [
 				"site": "GitLab",
 				"username": "Hans5958",
 				"url": "https://gitlab.com/Hans5958",
-				"icon": "logos:gitlab"
+				"icon": "logos:gitlab-icon"
 			},
 			{
 				"site": "GitLab",
 				"username": "Auto5958",
 				"url": "https://gitlab.com/Auto5958",
-				"icon": "logos:gitlab"
+				"icon": "logos:gitlab-icon"
 			},
 			{
 				"site": "Scratch",
@@ -185,7 +201,7 @@ export const accounts: AccountData = [
 				"site": "osu!",
 				"username": "Hans5958",
 				"url": "https://osu.ppy.sh/u/Hans5958",
-				"iconImg": "/assets/img/icons/osu.svg"
+				"icon": "simple-icons:osu"
 			},
 			{
 				"site": "Roblox",
@@ -200,10 +216,24 @@ export const accounts: AccountData = [
 				"iconImg": "/assets/img/icons/typeracer.svg"
 			},
 			{
+				"site": "Monkeytype",
+				"username": "Hans5958",
+				"url": "https://monkeytype.com/profile/Hans5958",
+				"icon": "simple-icons:monkeytype",
+			},
+			{
 				"site": "Speedrun.com",
 				"username": "Hans5958",
 				"url": "https://www.speedrun.com/users/Hans5958",
 				"iconImg": "/assets/img/icons/speedrun-com.svg"
+			},
+			{
+				"site": "Pokémon Go",
+				"username": "Hans5958",
+				"url": "https://monkeytype.com/profile/Hans5958",
+				"icon": "mdi:pokemon-go",
+				"iconStyle": "color: #FF0000; transform: scale(1.2);",
+				"notes": "Contact me through other channels if you want to friend me."
 			}
 		]
 	},
@@ -252,7 +282,31 @@ export const accounts: AccountData = [
 				"username": "Hans5958",
 				"url": "https://vocadb.net/Profile/Hans5958",
 				"iconImg": "https://static.vocadb.net/img/favicon.ico",
-				"notes": "Includes other sites on the network (VocaDB, UtaiteDB, TouhouDB)"
+			},
+			{
+				"site": "UtaiteDB",
+				"username": "Hans5958",
+				"url": "https://utaitedb.net/Profile/Hans5958",
+				"iconImg": "https://static.utaitedb.net/img/favicon.ico",
+			},
+			{
+				"site": "TouhouDB",
+				"username": "Hans5958",
+				"url": "https://touhoudb.com/Profile/Hans5958",
+				"iconImg": "https://static.touhoudb.com/img/favicon.ico",
+			},
+			{
+				"site": "Minecraft Wiki",
+				"username": "Hans5958",
+				"url": "https://minecraft.wiki/wiki/User:Hans5958",
+				"iconImg": "https://minecraft.wiki/images/Wiki_textless.png?format=original",
+				"iconStyle": "transform: scale(1.3);",
+			},
+			{
+				"site": "SiIvaGunner Wiki",
+				"username": "Hans5958",
+				"url": "https://siivagunner.wiki/wiki/User:Hans5958",
+				"iconImg": "/assets/img/icons/siivagunner-wiki.svg"
 			},
 		]
 	},

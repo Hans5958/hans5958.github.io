@@ -12,7 +12,7 @@ const {data: item, ...props} = Astro.props as { data: AccountData }
 			<>
 				<div class="mr-4">
 					{item.icon && <Icon name={item.icon} class="w-12 h-12" style={item?.iconStyle} />}
-					{item.iconImg && <img src={item.iconImg} alt={"Icon of " + item.site} class="w-12 h-12" />}
+					{item.iconImg && <img src={item.iconImg} alt={"Icon of " + item.site} class="w-12 h-12" style={item?.iconStyle} />}
 				</div>
 			</>
 		)
