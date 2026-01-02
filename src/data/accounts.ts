@@ -244,12 +244,14 @@ export const accounts: AccountData = [
 				"site": "ArchiveTeam",
 				"username": "Hans5958",
 				"url": "https://wiki.archiveteam.org/index.php/User:Hans5958",
+				"iconImg": "https://wiki.archiveteam.org/images/7/76/Archiveteam1.png",
 				"notes": "Links to wiki user page. Same name used on the tracker and leaderboards."
 			},
 			{
 				"site": "VocaDB",
 				"username": "Hans5958",
 				"url": "https://vocadb.net/Profile/Hans5958",
+				"iconImg": "https://static.vocadb.net/img/favicon.ico",
 				"notes": "Includes other sites on the network (VocaDB, UtaiteDB, TouhouDB)"
 			},
 		]
