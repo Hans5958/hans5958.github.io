@@ -20,4 +20,14 @@ import AccountsEl from '@/components/specifics/Accounts.astro'
 	<AccountsEl data={accounts} />
 </div>
 
+<script is:inline src="https://unpkg.com/@popperjs/core@2"></script>
+<script is:inline src="https://unpkg.com/tippy.js@6"></script>
+<script is:inline>
+	document.querySelectorAll('[data-note]').forEach(el => {
+		tippy(el, {
+			content: el.dataset['note']
+		})
+	})
+</script>
+
 </Default>
