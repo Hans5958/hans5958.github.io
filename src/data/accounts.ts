@@ -5,7 +5,7 @@ export type AccountData = {
 	icon?: string
 	iconStyle?: string
 	iconImg?: string
-	notes: string
+	note: string
 }
 
 export type AccountSectionData = {
@@ -58,7 +58,7 @@ export const accounts: AccountData = [
 				"username": "hans5958",
 				"url": "https://discord.com/users/279855717203050496",
 				"icon": "logos:discord-icon",
-				"notes": "Not recommended for quick inquiries because you have to add me as a friend. I will accept it, but don't expect for it to be quick."
+				"note": "Not recommended for quick inquiries because you have to add me as a friend. I will accept it, but don't expect for it to be quick."
 			},
 			{
 				"site": "Mastodon",
@@ -77,7 +77,7 @@ export const accounts: AccountData = [
 				"username": "Hans5958@lemmy.world",
 				"url": "https://lemmy.world/u/Hans5958",
 				"icon": "simple-icons:lemmy",
-				"notes": "Rarely used."
+				"note": "Rarely used."
 			},
 			{
 				"site": "Matrix",
@@ -97,7 +97,7 @@ export const accounts: AccountData = [
 				"url": "https://bsky.app/profile/hans5958.bsky.social",
 				"icon": "simple-icons:bluesky",
 				"iconStyle": "color: #006aff",
-				"notes": "Rarely used in favor of Mastodon. Mastodon account is bridged on Hans5958.mastodon.social.ap.brid.gy."
+				"note": "Rarely used in favor of Mastodon. Mastodon account is bridged on Hans5958.mastodon.social.ap.brid.gy."
 			},
 			{
 				"site": "Telegram",
@@ -233,7 +233,7 @@ export const accounts: AccountData = [
 				"url": "https://monkeytype.com/profile/Hans5958",
 				"icon": "mdi:pokemon-go",
 				"iconStyle": "color: #FF0000; transform: scale(1.2);",
-				"notes": "Contact me through other channels if you want to friend me."
+				"note": "Contact me through other channels if you want to friend me."
 			}
 		]
 	},
@@ -245,14 +245,14 @@ export const accounts: AccountData = [
 				"username": "Hans5958",
 				"url": "https://meta.wikimedia.org/wiki/User:Hans5958",
 				"icon": "simple-icons:wikipedia",
-				"notes": "Includes other Wikimedia projects such as Wikipedia, Wikidata, and Wikimedia Commons. Common edited wikis are English Wikipedia, Indonesian Wikipedia, and Wikidata."
+				"note": "Includes other Wikimedia projects such as Wikipedia, Wikidata, and Wikimedia Commons. Common edited wikis are English Wikipedia, Indonesian Wikipedia, and Wikidata."
 			},
 			{
 				"site": "Wikipedia",
 				"username": "Bot5958",
 				"url": "https://meta.wikimedia.org/wiki/User:Bot5958",
 				"icon": "simple-icons:wikipedia",
-				"notes": "For sanctioned, automated edits. See profile to see covered wikis."
+				"note": "For sanctioned, automated edits. See profile to see covered wikis."
 			},
 			{
 				"site": "Fandom",
@@ -260,7 +260,7 @@ export const accounts: AccountData = [
 				"url": "https://community.fandom.com/wiki/User:Hans5958",
 				"icon": "simple-icons:fandom",
 				"iconStyle": "color: #FA005A",
-				"notes": "Covering all Fandom wikis."
+				"note": "Covering all Fandom wikis."
 			},
 			{
 				"site": "Fandom",
@@ -268,14 +268,14 @@ export const accounts: AccountData = [
 				"url": "https://community.fandom.com/wiki/User:Bot5958",
 				"icon": "simple-icons:fandom",
 				"iconStyle": "color: #FA005A",
-				"notes": "For sanctioned, automated edits."
+				"note": "For sanctioned, automated edits."
 			},
 			{
 				"site": "ArchiveTeam",
 				"username": "Hans5958",
 				"url": "https://wiki.archiveteam.org/index.php/User:Hans5958",
 				"iconImg": "https://wiki.archiveteam.org/images/7/76/Archiveteam1.png",
-				"notes": "Links to wiki user page. Same name used on the tracker and leaderboards."
+				"note": "Links to wiki user page. Same name used on the tracker and leaderboards."
 			},
 			{
 				"site": "VocaDB",
