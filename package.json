@@ -13,21 +13,21 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/sitemap": "^3.7.4",
     "@iconify-json/bi": "^1.2.7",
-    "@iconify-json/devicon-plain": "^1.2.47",
+    "@iconify-json/devicon-plain": "^1.2.60",
     "@iconify-json/entypo-social": "^1.2.3",
-    "@iconify-json/logos": "^1.2.10",
+    "@iconify-json/logos": "^1.2.14",
     "@iconify-json/mdi": "^1.2.3",
-    "@iconify-json/simple-icons": "^1.2.62",
-    "@tailwindcss/vite": "^4.1.17",
-    "astro": "^5.16.5",
-    "astro-compress": "^2.3.8",
-    "astro-icon": "^1.1.5",
+    "@iconify-json/simple-icons": "^1.2.97",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.3.3",
+    "astro-compress": "^2.4.3",
+    "astro-icon": "^1.2.0",
     "clsx": "^2.1.1",
     "rss-parser": "^3.13.0",
-    "sharp": "^0.34.5",
-    "tailwind-merge": "^3.4.0",
-    "tailwindcss": "^4.1.17"
+    "sharp": "^0.35.4",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.3"
   }
 }
