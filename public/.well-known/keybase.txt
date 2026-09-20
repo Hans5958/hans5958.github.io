@@ -4,6 +4,74 @@ https://keybase.io/hans5958
 
 I hereby claim:
 
+  * I am an admin of https://hans5958.id
+  * I am hans5958 (https://keybase.io/hans5958) on keybase.
+  * I have a public key with fingerprint CF7E C77E 184B E60E 002D  F879 28B1 DEC4 70E8 08BB
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010b1af828e04b710f70d7b377473b62cf72c41ee75338e8db726767cf400799320a",
+      "fingerprint": "cf7ec77e184be60e002df87928b1dec470e808bb",
+      "host": "keybase.io",
+      "key_id": "28b1dec470e808bb",
+      "kid": "01010b1af828e04b710f70d7b377473b62cf72c41ee75338e8db726767cf400799320a",
+      "uid": "e336057f1bdb7fc297b62a2ed18a6019",
+      "username": "hans5958"
+    },
+    "service": {
+      "hostname": "hans5958.id",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1789906687,
+  "expire_in": 157680000,
+  "prev": "81d681c4a78d23f0b96763fef2a19d733534aa53edd52e1d752f480e5bceeecd",
+  "seqno": 39,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.17
+Comment: https://keybase.io/crypto
+
+yMIkAnicrZJbSFRBGMdXTcvNLhY9SHY7pD20ysy5zZyNqOhmRUJXEqrlzDnf0ePq
+7rbnrLmU0YV8CKKrFmRFoYREBhVRGWQXullBaBeI8kJBZeRLvSRpc6ReosdmHoaZ
++f3/85+P796YNJ8/5bbIni2CtJqU9tvHEr7yi8+GtgksaiaF4DYhDMMLVJjguKGw
+bQpBAWE+GdYtKlJAMiMYWQSZhEmEyERiqmhYRDRkDEAUSaJATUZElajEsGSEiKZJ
+ItKFgGDZkVKIx+J2xOW2XAQGIYCpzEBFgJBoWpRoImXYBEMmCCiijHFhWdTxFDwc
+0x0otKP8jG9Cw/H+wf/n3IlhO5AkFSnEwoxjliFqhDvoIpiY6irCmgc6EI/olcDp
+Mj3iKJpChZqAwE+rbAO8wno/+Yso5O4BIRaPulEjWuFduG7MCXpCNxnzyK3AQr89
+QsyOmLyMXFEFcceORoQg5qTh2p4pJlTTkKpSEhCgOmbHIWR7hEJUivjw3oEqbkmx
+qVJsyDqhpihZiGn835IFlqhjzSSSpEiyrisSmKYiAjaJIloyRaAwAwAML7EDWyJR
+IShpPKdeyj0duzSiu4k4CDV32jaO8KX4fRnpqV5/+fyZ4/903eLakT9SWd3dvDlP
+pnd9bZ3+2Q1lvBm4TkaHH89PLxu4OqM7v+DsrKFdZc2ZuHbXYNPU6kvTWiet3Fm8
+ZlPhoynQ09iZPduqTnncc/9wcWdwc0Pg3oUTa3fXLn+xr3hdpXrk+cKTm/JvworX
+WUWTd9e3lU4s6sytyrvbcvzW3K4DmY0NTXPrDrV3nxlf/WV/19prr166WTlNo8LS
+t7banId9HxfCopljC37i3HGN857odXt2NM8fzC7PSy4NLxvb09vsP/GhoahkQ/+5
+kiuJtO7Vn7LcjO8PejtaF9zve7t9af+X9KGDTxMPbyw5b7iXB5MLTnUcWB+fcrQ+
+t/vb6f6Olner/O+f702qhRN+AesrQLU=
+=eFjt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hans5958
+
+==================================================================
+==================================================================
+https://keybase.io/hans5958
+--------------------------------------------------------------------
+
+I hereby claim:
+
   * I am an admin of https://hans5958.github.io
   * I am hans5958 (https://keybase.io/hans5958) on keybase.
   * I have a public key with fingerprint CF7E C77E 184B E60E 002D  F879 28B1 DEC4 70E8 08BB

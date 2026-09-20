@@ -6,7 +6,7 @@ import icon from "astro-icon"
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://hans5958.github.io/',
+	site: 'https://hans5958.id/',
 
 	integrations: [
 		sitemap(),

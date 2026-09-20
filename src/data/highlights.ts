@@ -8,19 +8,19 @@ const highlights = [
 	{
 		"name": "Mini HTMLs",
 		"description": "Random assortment of small projects with HTML, CSS, and JS.",
-		"link": "https://hans5958.github.io/mini-htmls/",
+		"link": "https://hans5958.id/mini-htmls/",
 		"image": miniHtmls
 	},
 	{
 		"name": "Hyper Flexible Timer",
 		"description": "A timer/stopwatch hybrid that focuses on flexibility and simplicity. Built with Vue 3 and Astro.",
-		"link": "https://hans5958.github.io/hyper-flexible-timer/",
+		"link": "https://hans5958.id/hyper-flexible-timer/",
 		"image": hyperFlexibleTimer
 	},
 	{
 		"name": "Userscripts",
 		"description": "A collection of userscripts and userstyles, free to use.",
-		"link": "https://hans5958.github.io/userscripts/",
+		"link": "https://hans5958.id/userscripts/",
 		"image": userscripts
 	},
 	{

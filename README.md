@@ -2,9 +2,9 @@
 
 [![Deployment status](https://img.shields.io/github/actions/workflow/status/Hans5958/hans5958.github.io/deploy.yml?label=deploy&style=flat-square)](https://github.com/Hans5958/hans5958.github.io/actions/workflows/deploy.yml)
 [![License](https://img.shields.io/github/license/Hans5958/hans5958.github.io?style=flat-square)](LICENSE.md)
-[![Visit the website on hans5958.github.io](https://img.shields.io/badge/visit-hans5958.github.io-black?style=flat-square)](https://hans5958.github.io)
+[![Visit the website on hans5958.id](https://img.shields.io/badge/visit-hans5958.id-black?style=flat-square)](https://hans5958.id)
 
-This repository hosts my website, located at https://hans5958.github.io. Basically, it contains all about me that I wanted to show the world. 
+This repository hosts my website, located at [hans5958.id](https://hans5958.id). Basically, it contains all about me that I wanted to show the world. 
 
 I wanted to try to use some modern toys of the current state of web development, while keeping it still simple. With Astro, that is a pipe dream, came true. It is technically still ol' website, with a sprinkle of modern things and a site generator.
 
