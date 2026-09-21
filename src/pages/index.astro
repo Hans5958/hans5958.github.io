@@ -140,7 +140,7 @@ const feed = await parser.parseURL('https://blog.hans5958.id/rss.xml');
 		</A>
 		Latest
 	</h2>
-	<p class="mt-4 mb-8">Latest posts by yours truly. For more posts, check out <A href="/blog/">the blog</A>.</p>
+	<p class="mt-4 mb-8">Latest blog posts by yours truly. For more posts, check out <A href="/blog/">the blog</A>.</p>
 	<div class="grid sm:grid-cols-2 gap-4">
 		{ feed.items.splice(0, 4).map(item => 
 			<A unset class="block rounded grow outline-none text-black border border-gray-300 hover:bg-gray-100 focus:bg-gray-100 active:bg-gray-200 focus:ring focus:ring-blue-500 focus:outline-none active:outline-none" href={ item.link }>
