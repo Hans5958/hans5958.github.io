@@ -4,6 +4,9 @@ import { Icon } from 'astro-icon/components'
 import tools from '@/data/tools.ts'
 import highlights from '@/data/highlights.ts'
 import A from "@/components/Anchor.astro"
+import { Image } from 'astro:assets'
+import avatar from '../images/avatar.png'
+import Parser from 'rss-parser'
 
 const primarySocials = [
 	{
@@ -49,10 +52,7 @@ const primarySocials = [
 		"icon": "simple-icons:lemmy"
 	},
 ]
-import { Image } from 'astro:assets'
-import avatar from '../images/avatar.png'
 
-import Parser from 'rss-parser'
 let parser = new Parser({
 	customFields: {
 		item: [
