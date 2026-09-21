@@ -30,6 +30,7 @@ if (title === "") {
 }
 
 const baseUrl = import.meta.env.BASE_URL
+import avatar from '../images/avatar.png'
 ---
 
 <title>{ titleDisplay }</title>
@@ -46,15 +47,22 @@ const baseUrl = import.meta.env.BASE_URL
 <meta property="og:description" content={ description }>
 <meta property="og:site_name" content={ SITE_TITLE } />
 <meta property="og:locale" content="en_US" />
-{ coverSrc && <>
+{ coverSrc ? <>
 	<meta property="og:image" content={ coverSrc } />
 	<meta property="og:image:alt" content={ coverAlt } />
-</> }
+</> : <>
+	<meta property="og:image" content={ avatar.src } />
+	<meta property="og:image:alt" content="Avatar of Hans5958" />
+</>}
+<link rel="icon" type="image/png" href={ avatar.src }>
 
 { coverSrc ? <>
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:image" content={ coverSrc } />
-</> : <meta name="twitter:card" content="summary" /> }
+</> : <>
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:image" content={ avatar.src } />
+</> }
 <meta name="twitter:site" content={ SITE_TWITTER } />
 <meta name="twitter:creator" content={ SITE_TWITTER } />
 <meta name="twitter:url" content={ Astro.url } />
