@@ -1,5 +1,5 @@
 ---
-import { SITE_AUTHOR, SITE_TITLE, SITE_TWITTER, SITE_MASTODON } from '@/config';
+import { SITE_AUTHOR, SITE_TITLE, SITE_TWITTER, SITE_MASTODON, SITE_BLUESKY } from '@/config';
 import '@/styles/global.css';
 
 export interface Props {
@@ -70,3 +70,6 @@ import avatar from '../images/avatar.png'
 <meta name="twitter:description" content={ description } />
 
 <meta name="fediverse:creator" content={ SITE_MASTODON }>
+
+<meta name="at:me" content={ "at://" + SITE_BLUESKY }>
+<meta name="at:author" content={ "at://" + SITE_BLUESKY }>
